@@ -1,0 +1,5 @@
+rigid_bodies:
+  '5':
+    pose: robot/pose
+    pose2d: robot/pose2d
+    frame_id: robot_at_work
