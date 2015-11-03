@@ -29,10 +29,8 @@
 				--split --duration=1h
 				/fbm3w/map
 				/fbm3w/map_metadata
-				/fbm3w/origin/pose
-				/fbm3w/origin/pose2d
-				/fbm3w/ref_board/pose
-				/fbm3w/ref_board/pose2d
+				/fbm3w/robot_at_work/pose
+				/fbm3w/robot_at_work/pose2d
 				/tf
 				/rosout"
 		/>
