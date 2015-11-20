@@ -9,7 +9,7 @@
 		<node name="map_server"
 			pkg="map_server"
 			type="map_server"
-			args="$(find rockin_mocap)/config/tbmh_map.yaml"
+			args="$(find rockin_mocap)/config/lisbon_home_testbed_map.yaml"
 		/>
 
 		<node name="mocap"
@@ -30,8 +30,6 @@
 				/tbmh/map_metadata
 				/tbmh/robot/pose
 				/tbmh/robot/pose2d
-				/tbmh/human/pose
-				/tbmh/human/pose2d
 				/tf"
 		/>
 	</group>      

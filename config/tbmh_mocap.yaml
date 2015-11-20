@@ -4,9 +4,3 @@ rigid_bodies:
     pose2d: robot/pose2d
     child_frame_id: robot_at_home
     parent_frame_id: world
-
-  '4':
-    pose: human/pose
-    pose2d: human/pose2d
-    child_frame_id: human_at_home
-    parent_frame_id: world

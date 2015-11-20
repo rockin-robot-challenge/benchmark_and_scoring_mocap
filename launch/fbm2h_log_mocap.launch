@@ -10,7 +10,7 @@
 		<node name="map_server"
 			pkg="map_server"
 			type="map_server"
-			args="$(find rockin_mocap)/config/fbm2h_map.yaml"
+			args="$(find rockin_mocap)/config/lisbon_home_testbed_map.yaml"
 		/>
 
 		<node name="mocap_node"

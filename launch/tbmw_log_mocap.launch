@@ -9,7 +9,7 @@
 		<node name="map_server"
 			pkg="map_server"
 			type="map_server"
-			args="$(find rockin_mocap)/config/tbmw_map.yaml"
+			args="$(find rockin_mocap)/config/lisbon_work_testbed_map.yaml"
 		/>
 
 		<node name="mocap"
