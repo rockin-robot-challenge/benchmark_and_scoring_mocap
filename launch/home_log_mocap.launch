@@ -1,6 +1,6 @@
 <launch>
 
-	<group ns="home_log">
+	<group ns="home">
 		<node pkg="tf"
 			type="static_transform_publisher"
 			name="world_map_bc"
@@ -24,7 +24,7 @@
 
 		<node pkg="rosbag"
 			type="record"
-			name="log_mocap_fbm"
+			name="log_mocap_home"
 			args="record -o /home/rockin/logs/log_home_mocap
 				--split --duration=1h
 				/all/map
