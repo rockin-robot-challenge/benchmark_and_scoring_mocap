@@ -27,14 +27,14 @@
 			name="log_mocap_home"
 			args="record -o /home/rockin/logs/log_home_mocap
 				--split --duration=1h
-				/all/map
-				/all/map_metadata
-				/all/robot_at_home/pose
-				/all/robot_at_home/pose2d
-				/all/origin/pose
-				/all/origin/pose2d
-				/all/ref_board/pose
-				/all/ref_board/pose2d
+				/home/map
+				/home/map_metadata
+				/home/robot_at_home/pose
+				/home/robot_at_home/pose2d
+				/home/origin/pose
+				/home/origin/pose2d
+				/home/ref_board/pose
+				/home/ref_board/pose2d
 				/tf
 				/rosout"
 		/>
