@@ -1,6 +1,5 @@
 <launch>
-
-	<group ns="fbm1">
+	<group ns="fbm3w">
 		<node pkg="tf"
 			type="static_transform_publisher"
 			name="world_map_bc"
@@ -10,7 +9,7 @@
 		<node name="map_server"
 			pkg="map_server"
 			type="map_server"
-			args="$(find rockin_mocap)/config/fbm1_map.yaml"
+			args="$(find rockin_mocap)/config/lisbon_work_testbed_map.yaml"
 		/>
 
 		<node name="mocap_node"
@@ -19,20 +18,18 @@
 			respawn="false"
 			launch-prefix=""
 			required="true">
-			<rosparam file="$(find rockin_mocap)/config/fbm1_mocap.yaml" command="load" />
+			<rosparam file="$(find rockin_mocap)/config/fbm3w_mocap.yaml" command="load" />
 		</node>
 
 		<node pkg="rosbag"
 			type="record"
 			name="log_mocap_fbm"
-			args="record -o /home/rockin/logs/log_fbm1_mocap
+			args="record -o /home/rockin/logs/log_fbm3w_mocap
 				--split --duration=1h
-				/fbm1/map
-				/fbm1/map_metadata
-				/fbm1/origin/pose
-				/fbm1/origin/pose2d
-				/fbm1/ref_board/pose
-				/fbm1/ref_board/pose2d
+				/fbm3w/map
+				/fbm3w/map_metadata
+				/fbm3w/robot_at_work/pose
+				/fbm3w/robot_at_work/pose2d
 				/tf
 				/rosout"
 		/>
