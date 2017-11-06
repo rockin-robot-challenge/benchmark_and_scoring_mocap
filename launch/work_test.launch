@@ -1,0 +1,27 @@
+<launch>
+
+	<group ns="work">
+		<node pkg="tf"
+			type="static_transform_publisher"
+			name="world_map_bc"
+			args="0 0 0 0 0 0 world map 100"
+		/>
+		
+		<node name="map_server"
+			pkg="map_server"
+			type="map_server"
+			args="$(find rockin_mocap)/config/erl_work_2017.yaml"
+		/>
+
+		<node name="mocap_node"
+			type="mocap_node"
+			pkg="mocap_optitrack" 
+			respawn="false"
+			launch-prefix=""
+			required="true">
+			<rosparam file="$(find rockin_mocap)/config/all_work_mocap.yaml" command="load" />
+		</node>
+
+                <node pkg="rockin_mocap" type="navigation_goals_as_marker.py" name="navigation_goals_as_marker"  respawn="false" output="screen" />
+	</group>      
+</launch>

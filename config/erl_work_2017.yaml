@@ -1,0 +1,10 @@
+image: erl_work_2017.png
+resolution: 0.020000
+#origin: [-15.240000, -15.240000, 0.200000]
+#origin: [-13.065, -13.1811, 0.0629307]
+#origin: [-14.065, -12.1811, -0.0835735] #origin at center but axes not aligned
+origin: [6.3, 5.4, -3.14]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+
