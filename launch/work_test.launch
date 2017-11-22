@@ -10,7 +10,7 @@
 		<node name="map_server"
 			pkg="map_server"
 			type="map_server"
-			args="$(find rockin_mocap)/config/erl_work_2017.yaml"
+			args="$(find rockin_mocap)/config/erl_work_polimi.yaml"
 		/>
 
 		<node name="mocap_node"
