@@ -1,0 +1,206 @@
+name: erl
+channels:
+- conda-forge
+- defaults
+dependencies:
+- blas=1.1=openblas
+- bleach=2.0.0=py36_0
+- ca-certificates=2017.7.27.1=0
+- cairo=1.14.6=4
+- certifi=2017.7.27.1=py36_0
+- chrpath=0.16=0
+- cycler=0.10.0=py36_0
+- dbus=1.10.22=0
+- decorator=4.1.2=py36_0
+- entrypoints=0.2.3=py36_1
+- expat=2.2.1=0
+- fontconfig=2.12.1=4
+- freetype=2.7=1
+- gettext=0.19.7=1
+- glib=2.51.4=0
+- gmp=6.1.2=0
+- graphite2=1.3.9=0
+- gst-plugins-base=1.8.0=0
+- gstreamer=1.8.0=2
+- harfbuzz=1.4.3=0
+- html5lib=0.999999999=py36_0
+- icu=58.1=1
+- ipykernel=4.6.1=py36_0
+- ipython=6.1.0=py36_0
+- ipython_genutils=0.2.0=py36_0
+- ipywidgets=7.0.0=py36_1
+- jedi=0.10.2=py36_0
+- jinja2=2.9.6=py36_0
+- jpeg=9b=0
+- jsonschema=2.6.0=py36_0
+- jupyter=1.0.0=py36_0
+- jupyter_client=5.1.0=py36_0
+- jupyter_console=5.1.0=py36_0
+- jupyter_core=4.3.0=py36_0
+- libffi=3.2.1=3
+- libiconv=1.14=4
+- libpng=1.6.28=0
+- libsodium=1.0.10=0
+- libtiff=4.0.6=7
+- libuuid=1.0.3=1
+- libxcb=1.12=1
+- libxml2=2.9.4=4
+- markupsafe=1.0=py36_0
+- matplotlib=1.5.3=np113py36_8
+- mistune=0.7.4=py36_0
+- nbconvert=5.2.1=py36_1
+- nbformat=4.3.0=py36_0
+- ncurses=5.9=10
+- notebook=5.0.0=py36_0
+- numpy=1.13.1=py36_blas_openblas_200
+- openblas=0.2.19=2
+- openssl=1.0.2l=0
+- pandas=0.20.3=py36_1
+- pandoc=1.19.2=0
+- pandocfilters=1.4.1=py36_0
+- pango=1.40.4=0
+- pcre=8.39=0
+- pexpect=4.2.1=py36_0
+- pickleshare=0.7.4=py36_0
+- pip=9.0.1=py36_0
+- pixman=0.34.0=0
+- prompt_toolkit=1.0.15=py36_0
+- ptyprocess=0.5.2=py36_0
+- pygments=2.2.0=py36_0
+- pyparsing=2.2.0=py36_0
+- pyqt=4.11.4=py36_2
+- python=3.6.2=0
+- python-dateutil=2.6.1=py36_0
+- pytz=2017.2=py36_0
+- pyzmq=16.0.2=py36_2
+- qt=4.8.7=7
+- qtconsole=4.3.1=py36_0
+- readline=6.2=0
+- ruby=2.4.1=0
+- scikit-learn=0.19.0=py36_blas_openblas_201
+- scipy=0.19.1=py36_blas_openblas_202
+- setuptools=36.3.0=py36_0
+- simplegeneric=0.8.1=py36_0
+- sip=4.18=py36_1
+- six=1.10.0=py36_1
+- sqlite=3.13.0=1
+- terminado=0.6=py36_0
+- testpath=0.3.1=py36_0
+- tk=8.5.19=2
+- tornado=4.5.2=py36_0
+- traitlets=4.3.2=py36_0
+- wcwidth=0.1.7=py36_0
+- webencodings=0.5=py36_0
+- wheel=0.29.0=py36_0
+- widgetsnbextension=3.0.2=py36_0
+- xorg-kbproto=1.0.7=1
+- xorg-libice=1.0.9=2
+- xorg-libsm=1.2.2=2
+- xorg-libx11=1.6.4=6
+- xorg-libxau=1.0.8=3
+- xorg-libxdmcp=1.1.2=3
+- xorg-libxext=1.3.3=2
+- xorg-libxrender=0.9.10=0
+- xorg-libxt=1.1.5=0
+- xorg-renderproto=0.11.1=1
+- xorg-xextproto=7.3.0=1
+- xorg-xproto=7.0.31=6
+- xz=5.2.3=0
+- yaml=0.1.6=0
+- zeromq=4.2.1=1
+- zlib=1.2.8=3
+- libgfortran=3.0.0=1
+- pip:
+  - actionlib==1.11.9
+  - angles==1.9.11
+  - base-local-planner==1.12.13
+  - bondpy==1.7.19
+  - camera-calibration-parsers==1.11.12
+  - catkin==0.6.19
+  - cob-command-gui==0.6.5
+  - cob-dashboard==0.6.5
+  - cob-script-server==0.6.5
+  - controller-manager==0.9.4
+  - controller-manager-msgs==0.9.4
+  - controller-manager-tests==0.9.4
+  - cv-bridge==1.11.15
+  - diagnostic-analysis==1.9.0
+  - diagnostic-updater==1.9.0
+  - dynamic-reconfigure==1.5.48
+  - dynamixel-controllers==0.4.1
+  - dynamixel-driver==0.4.1
+  - gencpp==0.5.5
+  - genlisp==0.4.15
+  - genmsg==0.5.8
+  - genpy==0.5.10
+  - image-geometry==1.11.15
+  - interactive-markers==1.11.3
+  - ipython-genutils==0.2.0
+  - jupyter-client==5.1.0
+  - jupyter-console==5.1.0
+  - jupyter-core==4.3.0
+  - laser-geometry==1.6.4
+  - message-filters==1.11.21
+  - mongodb-store==0.1.30
+  - moveit-commander==0.7.11
+  - moveit-ros-planning-interface==0.7.11
+  - moveit-ros-visualization==0.7.11
+  - pluginlib==1.10.5
+  - pr2-computer-monitor==1.6.23
+  - pr2-power-board==1.1.5
+  - prompt-toolkit==1.0.15
+  - python-qt-binding==0.2.19
+  - qt-gui==0.2.32
+  - qt-gui-py-common==0.2.32
+  - resource-retriever==1.11.8
+  - rosbag==1.11.21
+  - rosboost-cfg==1.11.14
+  - rosclean==1.11.14
+  - roscreate==1.11.14
+  - rosgraph==1.11.21
+  - roslaunch==1.11.21
+  - roslib==1.11.14
+  - roslint==0.10.0
+  - roslz4==1.11.21
+  - rosmake==1.11.14
+  - rosmaster==1.11.21
+  - rosmsg==1.11.21
+  - rosnode==1.11.21
+  - rosparam==1.11.21
+  - rospy==1.11.21
+  - rosservice==1.11.21
+  - rostest==1.11.21
+  - rostopic==1.11.21
+  - rosunit==1.11.14
+  - roswtf==1.11.21
+  - rqt-bag==0.4.8
+  - rqt-console==0.4.8
+  - rqt-gui==0.4.8
+  - rqt-gui-py==0.4.8
+  - rqt-joint-trajectory-controller==0.9.3
+  - rqt-logger-level==0.4.8
+  - rqt-nav-view==0.5.7
+  - rqt-plot==0.4.8
+  - rqt-pr2-dashboard==0.2.9
+  - rqt-py-common==0.4.8
+  - rqt-reconfigure==0.4.8
+  - rqt-robot-dashboard==0.5.7
+  - rqt-robot-monitor==0.5.7
+  - rviz==1.11.16
+  - sensor-msgs==1.11.9
+  - smach==2.0.1
+  - smach-ros==2.0.1
+  - smclib==1.7.19
+  - sound-play==0.2.12
+  - srdfdom==0.3.5
+  - tf==1.11.8
+  - tf-conversions==1.11.8
+  - tf2-kdl==0.5.15
+  - tf2-py==0.5.15
+  - tf2-ros==0.5.15
+  - urdfdom-py==0.3.3
+  - warehouse-ros==0.8.8
+  - xacro==1.9.5
+  - youbot-driver-ros-interface==1.1.1
+prefix: /home/deebuls/anaconda3/envs/erl
+
